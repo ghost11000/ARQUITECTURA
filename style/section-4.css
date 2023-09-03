@@ -1,0 +1,118 @@
+.section-4{
+    width: 80%;
+    margin: auto;
+    height: 110vh;
+    background-color: #313131;
+}
+
+/*TITULO */
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.titulo p {
+    position: absolute;
+    font-size: 2rem;
+    top: 20%;
+    left: 33%;
+}
+
+.titulo h2 {
+    padding-top: 3%;
+
+}
+/* DECORACIÓN */
+.titulo .conta-block-3 {
+    position: absolute;
+}
+#decora-1 {
+    width: 50px;
+    border-bottom: 1px solid #fff;
+    bottom: 40%;
+    right: 28.5%;
+}
+
+#decora-2 {
+    width: 90px;
+    border-bottom: 1px solid #fff;
+    bottom: 27%;
+    left: 66.8%;
+}
+
+/* BLOCK-3 */
+.block-3{
+    width: 70%;
+    height: 390px;
+    margin-top: 10%;
+    background-color: #4e4641;
+    position: relative;
+}
+.block-3 .conta-block-3 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 15px;
+}
+
+.block-3 h3 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+.block-3 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    word-spacing: .5rem;
+    margin: 25px 0;
+}
+.block-3 a {
+    border: 1px solid #fff;
+    padding: .6rem;
+}
+.block-3 .conta-block-3 span {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    border: 1px solid #fff;
+    top: 2.5%;
+    left: 30%;
+}
+
+/* IMAGEN */
+.background-2 {
+    width: 500px;
+    height: 500px;
+    background-image: url(/img/proyects.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -13%;
+    left: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background-2 div {
+    width: 340px;
+    height: 340px;
+    background-color: #000;
+    opacity: .7;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background-2 div p{
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+    border-bottom: 1px solid #fff;
+}

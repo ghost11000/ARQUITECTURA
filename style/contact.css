@@ -1,0 +1,137 @@
+.contact{
+    height: 110vh;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.titulo-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-5 h4 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    top: 6%;
+}
+
+#titulo-p{
+    position: absolute;
+    left: 60%;
+    top: 4.5%;
+    font-family: 'Great Vibes', cursive;
+}
+h4{
+    position: absolute;
+}
+.titulo-5 span {
+    position: absolute;
+    border-bottom: 1px solid #fff;
+}
+#decora-3{
+   width: 50px;
+   left: 29.5%;
+}
+#decora-4{
+    width: 90px;
+    left: 25.8%;
+}
+
+/* CONTENIDO */
+
+form{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 40%;
+    height: 70%;
+    background-color: #4e4641;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 0;
+    z-index: 50;
+}
+form p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    word-spacing: 0.1rem;
+    padding-bottom: 10px;
+}
+form > label{
+    width: 65%;
+    margin: auto;
+    color: #fff;
+}
+
+form > label > input{
+    width: 100%;
+    height: 30px;
+    resize: none;
+    border: 2px solid #575046;
+    background-color: #4e4641;
+}
+input, textarea {
+    margin: 6px 0;
+}
+input, textarea::placeholder{
+    color: #fff;
+}
+textarea {
+    resize: none;
+    width: 100%;
+    height: 120px;
+    border: 2px solid #575046;
+    background-color: #4e4641;
+}
+button {
+    background-color: #4e4641;
+    border: 2px solid #575046;
+    padding: 10px 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* DIV- CONTACT */
+
+ .div-contact{
+    width: 600px;
+    height: 560px;
+    border: 1px solid #fff;
+    position: absolute;
+    right: 10%;
+    bottom: 2%; 
+}
+.div-contact div {
+    display: flex;
+    flex-direction: column;
+    padding: 25% 0;
+    width: 65%;
+    height: 100%;
+    margin-left: auto;
+}
+.contact div h3 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.contact div p {
+    font-family: 'Poppins', sans-serif;
+    font-size: .7rem;
+    word-spacing: 0.5rem;
+}
+#email-block {
+    width: 85px;
+    height: 85px;
+    border: 1px solid #fff;
+    position: absolute;   
+    top: 26%;
+    right: 11.5%;  
+}

@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    background-color: #313131;
+}
+
+.section-1 {
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+
+
+/* NAVEGACIÓN */
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu h1 {
+    font-size: 2rem;
+}
+
+.nav-menu span {
+    font-family: 'Great Vibes', cursive;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu h1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul li {
+    padding: 20px;
+}
+
+.nav-menu ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+}
+
+#i-1 {
+    font-size: .9rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-menu ul li a:hover {
+    border-bottom: 2px solid #5d5548;
+}
+
+/* CONTAINER 1 */
+/* HEADER 1 */
+.header-main {
+    display: flex;
+    margin-top: 100px;
+}
+
+.header-main .div-header-1 {
+    width: 50%;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+}
+
+.div-header-1 {
+    color: #fff;
+    font-size: 5rem;
+    position: relative;
+}
+
+.div-header-1 span {
+    font-family: 'Great Vibes', cursive;
+
+}
+
+#first {
+    position: absolute;
+    top: 7%;
+    left: -2%;
+    font-size: 3.5rem;
+}
+
+#last {
+    position: absolute;
+    right: 0%;
+    bottom: -5%;
+    font-size: 5rem;
+    font-size: 3.5rem;
+}
+
+/*  DECORACIÓN  */
+.div-header-1 div {
+    border-bottom: 1px solid #fff;
+    position: absolute;
+}
+
+#linea-1 {
+    width: 90px;
+    bottom: 5%;
+}
+
+#linea-2 {
+    width: 50px;
+    bottom: 0%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+}
+
+/* CONTAINER 2 ** IMAGEN 1*/
+.header-main .div-header-2 {
+    width: 50%;
+    left: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-header-2 ul {
+    position: absolute;
+    right: 0;
+    bottom: -45%;
+}
+
+.div-header-2 ul li {
+    padding: 10px;
+}
+
+.div-header-2 ul li a {
+    font-size: 1.3rem;
+}
+
+.div-header-2 img {
+    width: 360px;
+    height: 300px;
+    margin-left: 70px;
+    z-index: 10;
+}
+
+
+/* -------------  DECORACIÓN   ---------*/
+
+.div-header-2 div {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    border: 1px solid #fff;
+}
+
+#div-1 {
+    bottom: -20%;
+    left: 18%;
+}
+
+#div-2 {
+    bottom: -30%;
+    left: 13%;
+}
